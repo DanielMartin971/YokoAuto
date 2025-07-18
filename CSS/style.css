@@ -4,3 +4,31 @@
     background-color: black;
     color: white;
 }
+
+/* img {} */
+
+.login{
+    display: flex;
+}
+
+.carousel{
+    padding: 0 100px;
+    margin-bottom: 2rem;
+}
+.carousel-inner{
+    height: 600px;
+}
+.carousel-control-prev, .carousel-control-next{
+    color: black;
+}
+
+.hstack{
+    justify-content: space-around;
+}
+
+footer{
+    background-color: black;
+}
+footer a{
+    text-decoration: none;
+}
