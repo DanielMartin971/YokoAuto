@@ -1,8 +1,12 @@
-.main-H{
+*{
+    background-color: #293439;
+}
+.jumbotext{
     margin:0;
-    padding-left: 45%;
-    background-color: black;
-    color: white;
+    color: black;
+    z-index: 1;
+    display: flex;
+    position: relative;
 }
 
 /* img {} */
@@ -11,10 +15,17 @@
     display: flex;
 }
 
-.carousel{
+nav *{
+    background-color: white;
+}
+.navbar{
+    padding: 0 !important;
+}
+
+/* .carousel{
     padding: 0 100px;
     margin-bottom: 2rem;
-}
+} */
 .carousel-inner{
     height: 600px;
 }
@@ -25,9 +36,13 @@
 .hstack{
     justify-content: space-around;
 }
+.card div{
+    color: #38708E;
+}
 
 footer{
     background-color: black;
+    border-top: 1px solid #635038;
 }
 footer a{
     text-decoration: none;
